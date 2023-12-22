@@ -16,4 +16,7 @@ jobs:
     - name: Build and Deploy
       run: |
         echo "Build and deploy script goes here"
+        mkdir public
+        cp index.html public/
+        echo "Deployment complete"
 
